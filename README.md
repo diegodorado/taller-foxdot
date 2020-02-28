@@ -30,8 +30,8 @@ Primero el codigo, despues las explicaciones. Evalua el siguiente bloque de codi
 d1 >> play('x-o-')
 ```
 
- * **d1** es el nombre de nuestro `Sample Player`. Los nombres de 2 caracteres ya estan definidos por comodidad y son los que se usan normalmente.
- * **>>** es sintaxis...de este modo se "asigna" en FoxDot un Player
+ * `d1` es el nombre de nuestro `Sample Player`. Los nombres de 2 caracteres ya estan definidos por comodidad y son los que se usan normalmente.
+ * `>>` es sintaxis...de este modo se "asigna" en FoxDot un Player
  * `play()` es una funcion que crea un `Sample Player`
  * `x-o-` es un texto que se pasa como argumento a la funcion play, y cada caracter en este caso corresponde a un sample
 
@@ -130,9 +130,7 @@ Para ver los sintes que vienen con FoxDot,
 
 ```python 
 print(SynthDefs)
-```
 
-```python 
 ['sawbass', 'karp', 'gong', 'varsaw', 'bell', 'feel', 'scratch', 'pulse', 'audioin', 'blip', 'pads', 'rave', 'donk', 'saw', 'orient', 'creep', 'growl', 'marimba', 'razz', 'dub', 'pasha', 'keys', 'arpy', 'zap', 'viola', 'piano', 'quin', 'ambi', 'dbass', 'crunch', 'noise', 'star', 'bass', 'dab', 'dirt', 'twang', 'swell', 'pluck', 'glass', 'soprano', 'charm', 'spark', 'bug', 'squish', 'sitar', 'snick', 'play2', 'play1', 'prophet', 'ripple', 'space', 'fuzz', 'lazer', 'klank', 'nylon', 'soft', 'scatter', 'loop']
 ```
 
